@@ -28,13 +28,13 @@
                 <div>
                     <div class="mb-3">
                         <label for="km" class="form-label">Km da percorrere</label>
-                        <input type="text" class="form-control border-dark" id="km">
+                        <input type="number" class="form-control border-dark" id="km">
                     </div>
                 </div>
                 <div>
                     <label class="d-block">Fascia di Età</label>
-                        <select name="age" id="age">
-                        	<option value="">Seleziona una opzione</option>
+                        <select  class="form-select" aria-label="Default select example" name="age" id="age">
+                        	<option value=""></option>
                         	<option value="adult">Adulto</option>
                         	<option value="under">under 18</option>
                         	<option value="over">Over 65</option>
@@ -46,10 +46,10 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div id="biglietto">
             <h1 class="text-center">IL TUO BIGLIETTO</h1>
             <div class="gap-5 bg-light text-dark p-5 m-3">
-                <h5>DETTAGLIO PASSEGGERI</h5>
+                <h4>DETTAGLIO PASSEGGERI</h4>
                 <div class="d-flex flex-row gap-5 border-dark border-top border-bottom">
                     <div class="bg-secondary p-3">
                         <h5>NOME PASSEGERO</h5>
