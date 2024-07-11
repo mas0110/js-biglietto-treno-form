@@ -45,3 +45,8 @@ document.getElementById("sendbutton").addEventListener("click", function(){
         }
 }
 );
+
+document.getElementById("Cancel").addEventListener("click", function(){
+    location.reload();
+}
+);
